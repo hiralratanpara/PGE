@@ -1,0 +1,10 @@
+{
+    "login": {
+          "userName":"Admin",
+          "password": "admin123",
+          "forgotPasswordLink" : "#forgotPasswordLink > a"
+        }
+    
+    
+
+}

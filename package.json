@@ -1,0 +1,83 @@
+{
+    "name": "testcafe",
+    "description": "Automated browser testing for the modern web development stack.",
+    "license": "MIT",
+    "version": "1.8.1",
+    "author": {
+        "name": "",
+        "url": "http://www.pgealerts.com"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "keywords": [
+        "automated",
+        "functional",
+        "browser",
+        "browsers",
+        "website",
+        "webapp",
+        "testing",
+        "automation",
+        "test",
+        "runner",
+        "tdd",
+        "assert",
+        "assertion",
+        "QA",
+        "ES6",
+        "ES2015",
+        "async",
+        "await"
+    ],
+    "scripts": {
+        "test": "testcafe chrome tests/",
+        "chrome": "testcafe chrome tests/",
+        "safari": "testcafe safari tests/",
+        "edge": "testcafe edge tests/"
+    },
+    "dependencies": {
+        "@types/node": "^10.12.19",
+        "async-exit-hook": "^1.1.2",
+        "chrome-emulated-devices-list": "^0.1.0",
+        "chrome-remote-interface": "^0.25.3",
+        "debug": "^2.2.0",
+        "node-version": "^1.0.0",
+        "testcafe-browser-tools": "2.0.8",
+        "testcafe-hammerhead": "16.0.2",
+        "testcafe-legacy-api": "3.1.11",
+        "testcafe-reporter-json": "^2.1.0",
+        "testcafe-reporter-list": "^2.1.0",
+        "testcafe-reporter-minimal": "^2.1.0",
+        "testcafe-reporter-spec": "^2.1.1",
+        "testcafe-reporter-xunit": "^2.1.0",
+        "time-limit-promise": "^1.0.2",
+        "tmp": "0.0.28",
+        "tree-kill": "^1.1.0"
+    },
+    "devDependencies": {
+        "@belym.a.2105/broken-link-checker": "^0.7.9",
+        "@ffmpeg-installer/ffmpeg": "^1.0.17",
+        "@types/debug": "^4.1.5",
+        "@types/dedent": "^0.7.0",
+        "@types/json5": "0.0.30",
+        "@types/mime-db": "^1.27.0",
+        "@types/nanoid": "^2.1.0",
+        "@types/useragent": "^2.1.1",
+        "babel-plugin-add-module-exports": "^0.2.0",
+        "basic-auth": "^1.1.0",
+        "body-parser": "^1.17.1",
+        "browserstack-connector": "^0.1.7",
+        "caller": "^1.0.1",
+        "connect": "^3.4.0",
+        "cross-spawn": "^4.0.0",
+        "devtools-protocol": "0.0.678506",
+        "dom-walk": "^0.1.1",
+        "eslint-plugin-hammerhead": "0.3.0",
+        "eslint-plugin-no-only-tests": "^2.0.1",
+        "express": "^4.13.3",
+        "express-ntlm": "2.4.0",
+        "testcafe-browser-provider-browserstack": "^1.7.1",
+        "webmake": "0.3.42"
+    }
+}

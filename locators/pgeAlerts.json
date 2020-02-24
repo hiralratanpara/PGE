@@ -1,0 +1,12 @@
+{
+    "homePage":{
+        "pgeEmployees":"#menu-item-32 > a",
+        "searchBox": "#smobile_1",
+        "acceptCookie": "#onetrust-accept-btn-handler",
+        "safety": "#menu-item-13 > a",
+        "searchButton": "#searchform_1 > div > span > button > i"
+    },
+    "search":{
+        
+    }
+}
