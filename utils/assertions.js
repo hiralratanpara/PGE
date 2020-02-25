@@ -1,9 +1,10 @@
 import {Selector, t} from 'testcafe';
 
-class Assertions {
+export default class Assertions {
 
     async contains(element, message) {
-         await t.get(element).contains( message);
+         await t.expect(Selector(element).innerText).contains(message);
+         console.log("assertions passed");
     }
 
     // isTextEqualTo(element, text) {
@@ -54,4 +55,4 @@ class Assertions {
     // }
 
 }
-export default Assertions;
+
