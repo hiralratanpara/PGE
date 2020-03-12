@@ -1,9 +1,15 @@
 {
     "homePage":{
+        "safety": "#menu-item-13 > a",
+        "outages": "#menu-item-18 > a",
+        "newsroom": "#menu-item-146 > a",
+        "governmentPartners": "#menu-item-268 > a",
+        "businessToBusiness": "#menu-item-34 > a",
+        "disasterAssistance": "#menu-item-33 > a",
         "pgeEmployees":"#menu-item-32 > a",
         "searchBox": "#smobile_1",
         "acceptCookie": "#onetrust-accept-btn-handler",
-        "safety": "#menu-item-13 > a",
+        
         "searchButton": "#searchform_1 > div > span > button > i"
     },
     "search":{

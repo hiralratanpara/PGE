@@ -11,11 +11,14 @@ export default class NwPgeHomePage {
    async pgeEmployee() {
 
 
-      await elementActions.clickElementA(homePage.acceptCookie);
+      //await elementActions.clickElementA(homePage.acceptCookie);
       await elementActions.shortWait();
       await assertions.contains(homePage.pgeEmployees, "PG&E Employees");
       await elementActions.clickElement(homePage.pgeEmployees);
       await elementActions.shortWait();
+      await elementActions.clickElement(homePage.safety);
+      await elementActions.shortWait();
+      
       await elementActions.clickElement(homePage.searchBox);
       await elementActions.setText(homePage.searchBox, "power shutoff");
       await elementActions.clickElement(homePage.searchButton)
